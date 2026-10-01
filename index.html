@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANGERI SUMANTH | AI Engineer & Full Stack Python Developer</title>
+  <meta name="description"
+    content="Portfolio of Angeri Sumanth — AI Engineer specializing in Generative AI, LLM applications, RAG, and intelligent agentic systems, with a strong foundation in full-stack Python development.">
+  <meta name="keywords"
+    content="Angeri Sumanth, AI Engineer, Full Stack Python Developer, Generative AI, LLM Applications, RAG Systems, Agentic AI, LangChain, LangGraph, Python, FastAPI, Streamlit, Machine Learning">
+  <meta name="author" content="Angeri Sumanth">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ANGERI SUMANTH | AI Engineer & Full Stack Python Developer">
+  <meta property="og:description"
+    content="AI Engineer specializing in Generative AI, LLM applications, RAG, and intelligent agentic systems, with a strong foundation in full-stack Python development.">
+
+  <!-- Favicon Monogram -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%230b0f19'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='48' font-weight='800' fill='%2338bdf8'>AS</text></svg>">
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- Neural Particles Background Canvas -->
+  <canvas id="particles-canvas" aria-hidden="true"></canvas>
+
+  <!-- Ambient Light Glows -->
+  <div class="ambient-glow ambient-glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow-3" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- Page Wrapper -->
+  <div class="page-wrapper">
+
+    <!-- ====================================================================
+         STICKY NAVIGATION BAR
+         ==================================================================== -->
+    <header class="header-nav" id="header-nav">
+      <nav class="nav-container" aria-label="Main Navigation">
+        <a href="#home" class="nav-brand" aria-label="Angeri Sumanth Homepage">
+          <div class="brand-avatar">AS</div>
+          <div class="brand-info">
+            <span class="brand-name">Angeri Sumanth</span>
+            <span class="brand-role">AI Engineer</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#certificate" class="nav-link">Certificates</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Action CTA -->
+        <div class="nav-actions">
+          <a href="#contact" class="nav-contact-btn">
+            <span>Let's Connect</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <button type="button" class="nav-toggle" id="nav-toggle-btn" aria-label="Toggle Navigation Menu"
+            aria-expanded="false">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-drawer" id="mobile-nav-drawer" aria-label="Mobile Navigation">
+      <a href="#home" class="mobile-nav-link">Home</a>
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#experience" class="mobile-nav-link">Experience</a>
+      <a href="#education" class="mobile-nav-link">Education</a>
+      <a href="#projects" class="mobile-nav-link">Projects</a>
+      <a href="#skills" class="mobile-nav-link">Skills</a>
+      <a href="#certificate" class="mobile-nav-link">Certificates</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+    </div>
+
+    <!-- ====================================================================
+         HERO SECTION
+         ==================================================================== -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+
+          <!-- Left: Hero Content -->
+          <div class="hero-content">
+            <div class="availability-pill">
+              <span class="pulse-indicator">
+                <span class="pulse-ring"></span>
+                <span class="pulse-dot"></span>
+              </span>
+              <span class="availability-text">Available for AI / Full Stack Opportunities</span>
+            </div>
+
+            <div class="hero-title-group">
+              <h1 class="hero-greeting">Hi, I'm <span class="gradient-text">ANGERI SUMANTH</span></h1>
+              <div class="hero-role-primary">
+                <span>AI Engineer</span>
+              </div>
+              <div class="hero-role-secondary">
+                <span>Full Stack Python Developer</span>
+              </div>
+            </div>
+
+            <p class="hero-description">
+              AI Engineer specializing in Generative AI, LLM applications, RAG, and intelligent agentic systems, with a strong foundation in full-stack Python development.
+              <span class="hero-description-sub">Turning real-world problems into intelligent applications with Python, LLMs, RAG pipelines, and AI agents.</span>
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn-primary">
+                <span>View Projects</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#contact" class="btn-secondary">
+                <span>Let's Connect</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+              </a>
+            </div>
+
+            <!-- Social Links Strip -->
+            <div class="hero-social-strip">
+              <a href="https://github.com/sumanth-9-9-9" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+                aria-label="Angeri Sumanth GitHub Profile">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                  </path>
+                </svg>
+              </a>
+              <a href="https://linkedin.com/in/sumanth-angeri/" target="_blank" rel="noopener noreferrer"
+                class="social-icon-btn" aria-label="Angeri Sumanth LinkedIn Profile">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+              <a href="mailto:angerisumanth2005@gmail.com" class="social-icon-btn"
+                aria-label="Send Email to Angeri Sumanth">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Profile Presentation & Code Editor Card -->
+          <div class="hero-interactive-card">
+
+            <!-- Real Profile Photo Badge Presentation -->
+            <div class="hero-profile-container">
+              <div class="profile-identity-group">
+                <div class="profile-avatar-wrap">
+                  <div class="profile-ring-glow"></div>
+                  <img src="assets/images/profile.jpg" onerror="this.onerror=null;this.src='assets/images/profile.svg'"
+                    alt="Angeri Sumanth - AI Engineer" class="profile-avatar-img"
+                    width="80" height="80">
+                </div>
+                <div class="profile-meta-wrap">
+                  <div class="profile-meta-name">ANGERI SUMANTH</div>
+                  <div class="profile-meta-role">AI Engineer</div>
+                  <div class="profile-meta-inst">B.Tech AI & ML • Mohan Babu University</div>
+                </div>
+              </div>
+              <div class="profile-badge-pill">
+                <span class="pulse-indicator">
+                  <span class="pulse-ring"></span>
+                  <span class="pulse-dot"></span>
+                </span>
+                <span>Active 2026</span>
+              </div>
+            </div>
+
+            <!-- Futuristic Floating Code Editor Panel -->
+            <div class="code-editor-card" id="code-editor">
+              <div class="editor-header">
+                <div class="editor-controls">
+                  <span class="control-dot red"></span>
+                  <span class="control-dot yellow"></span>
+                  <span class="control-dot green"></span>
+                </div>
+                <div class="editor-tab">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                  <span>developer.ts</span>
+                </div>
+                <span class="editor-badge">TypeScript</span>
+              </div>
+              <div class="editor-body" id="code-editor-body">
+                <div class="code-line"><span class="line-number">01</span><span class="token-keyword">const</span> <span class="token-variable">developer</span> = {</div>
+                <div class="code-line"><span class="line-number">02</span>  <span class="token-property">name</span>: <span class="token-string">"Angeri Sumanth"</span>,</div>
+                <div class="code-line"><span class="line-number">03</span>  <span class="token-property">role</span>: <span class="token-string">"AI Engineer"</span>,</div>
+                <div class="code-line"><span class="line-number">04</span>  <span class="token-property">secondaryRole</span>: <span class="token-string">"Full Stack Python Developer"</span>,</div>
+                <div class="code-line"><span class="line-number">05</span>  <span class="token-property">focus</span>: [</div>
+                <div class="code-line"><span class="line-number">06</span>    <span class="token-string">"Generative AI"</span>, <span class="token-string">"LLM Apps"</span>,</div>
+                <div class="code-line"><span class="line-number">07</span>    <span class="token-string">"RAG Systems"</span>, <span class="token-string">"Agentic AI"</span></div>
+                <div class="code-line"><span class="line-number">08</span>  ],</div>
+                <div class="code-line"><span class="line-number">09</span>  <span class="token-property">stack</span>: [</div>
+                <div class="code-line"><span class="line-number">10</span>    <span class="token-string">"Python"</span>, <span class="token-string">"LangChain"</span>, <span class="token-string">"FastAPI"</span>,</div>
+                <div class="code-line"><span class="line-number">11</span>    <span class="token-string">"React"</span>, <span class="token-string">"Streamlit"</span>, <span class="token-string">"MongoDB"</span></div>
+                <div class="code-line"><span class="line-number">12</span>  ],</div>
+                <div class="code-line"><span class="line-number">13</span>  <span class="token-property">goal</span>: <span class="token-string">"Building practical, scalable AI."</span></div>
+                <div class="code-line"><span class="line-number">14</span>};<span class="cursor-blink"></span></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         ABOUT SECTION
+         ==================================================================== -->
+    <section class="section-wrapper" id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+            <span>Background & Architecture</span>
+          </div>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">
+            Building practical AI solutions, from LLM applications to full-stack Python products.
+          </p>
+        </div>
+
+        <div class="about-container">
+          <!-- About Text & Highlights -->
+          <div class="about-text-card">
+            <p class="about-paragraph">
+              I am an <strong>Artificial Intelligence and Machine Learning</strong> undergraduate passionate about
+              building practical AI solutions using <strong>Machine Learning</strong>, <strong>Deep Learning</strong>,
+              <strong>Generative AI</strong>, and <strong>Large Language Models</strong>. I enjoy transforming
+              real-world problems into intelligent applications using Python, LLMs, RAG pipelines, embeddings, vector
+              databases, and AI agents.
+            </p>
+            <p class="about-paragraph">
+              My goal is to become an <strong>AI Engineer</strong> specializing in Generative AI and Agentic AI while
+              developing strong full-stack engineering skills. I continuously work on projects involving AI assistants,
+              document intelligence, NLP, computer vision, and intelligent automation, with a focus on building
+              scalable and useful real-world applications.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-box">
+                <div class="highlight-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                    <polyline points="2 12 12 17 22 12"></polyline>
+                  </svg>
+                </div>
+                <div class="highlight-title">AI & Agentic Systems</div>
+                <div class="highlight-desc">Agentic AI workflows built with LangChain, LangGraph, and LangSmith.</div>
+              </div>
+
+              <div class="highlight-box">
+                <div class="highlight-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                  </svg>
+                </div>
+                <div class="highlight-title">Vector Search & RAG</div>
+                <div class="highlight-desc">Embeddings, FAISS & ChromaDB indexing, and semantic retrieval.
+                </div>
+              </div>
+
+              <div class="highlight-box">
+                <div class="highlight-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                  </svg>
+                </div>
+                <div class="highlight-title">Full Stack Ecosystem</div>
+                <div class="highlight-desc">Python backends with FastAPI and Flask, plus Streamlit and React interfaces.
+                </div>
+              </div>
+
+              <div class="highlight-box">
+                <div class="highlight-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                </div>
+                <div class="highlight-title">9.0 CGPA Academic</div>
+                <div class="highlight-desc">Strong foundation in DSA, OS, DBMS, Computer Networks, ML & Deep Learning.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </div>
+  </section>
+
+  <!-- ====================================================================
+         EXPERIENCE SECTION (TIMELINE)
+         ==================================================================== -->
+  <section class="section-wrapper" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+          </svg>
+          <span>Internships</span>
+        </div>
+        <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+        <p class="section-subtitle">
+          Internships across Generative AI, machine learning, and applied AI projects.
+        </p>
+      </div>
+
+      <div class="experience-container">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta-row">
+                <h3 class="timeline-company">Google Cloud × AICTE–EduSkills</h3>
+                <div class="timeline-duration-badge">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  <span>Aug 2026 – Oct 2026</span>
+                </div>
+              </div>
+              <div class="timeline-role">
+                <span>Generative AI Intern</span>
+                <span class="timeline-role-tag">Virtual</span>
+              </div>
+              <ul class="timeline-list">
+                <li class="timeline-list-item">Completed an 8-week Generative AI internship covering Prompt Engineering, Responsible AI, Multimodal AI, and Vertex AI.</li>
+                <li class="timeline-list-item">Worked with Generative AI concepts including Transformers, Diffusion Models, Embeddings, Gemini, and Multimodal RAG.</li>
+                <li class="timeline-list-item">Explored AI Agents, Generative AI applications, and MLOps using Vertex AI through learning activities, assessments, and practical assignments.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta-row">
+                <h3 class="timeline-company">Future Interns</h3>
+                <div class="timeline-duration-badge">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  <span>Jun 2025 – Aug 2025</span>
+                </div>
+              </div>
+              <div class="timeline-role">
+                <span>Machine Learning Intern</span>
+              </div>
+              <ul class="timeline-list">
+                <li class="timeline-list-item">Built a sales analytics dashboard and a stock-price prediction application using XGBoost.</li>
+                <li class="timeline-list-item">Developed a Gemini-powered Streamlit chatbot.</li>
+                <li class="timeline-list-item">Worked on practical machine learning and Generative AI applications.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta-row">
+                <h3 class="timeline-company">EDUNET Foundation × AICTE</h3>
+                <div class="timeline-duration-badge">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                  <span>Feb 2025 – Apr 2025</span>
+                </div>
+              </div>
+              <div class="timeline-role">
+                <span>AI/ML Intern</span>
+                <span class="timeline-role-tag">Remote</span>
+              </div>
+              <ul class="timeline-list">
+                <li class="timeline-list-item">Developed an AQI Prediction system using CountVectorizer and Multinomial Naive Bayes.</li>
+                <li class="timeline-list-item">Built an Animal Species Classification model using pretrained MobileNet.</li>
+                <li class="timeline-list-item">Performed data preprocessing, model training, evaluation, and experimentation.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================================
+         EDUCATION SECTION
+         ==================================================================== -->
+  <section class="section-wrapper" id="education">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+            <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+          </svg>
+          <span>Academic Background</span>
+        </div>
+        <h2 class="section-title">Education & <span class="gradient-text">Foundations</span></h2>
+        <p class="section-subtitle">
+          Strong computer science principles grounded in artificial intelligence and machine learning.
+        </p>
+      </div>
+
+      <div class="education-container">
+        <div class="education-card">
+          <div class="edu-icon-badge">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+            </svg>
+          </div>
+          <div class="edu-info-group">
+            <div class="edu-top-row">
+              <div>
+                <h3 class="edu-institution">Mohan Babu University</h3>
+                <span class="edu-location">Tirupati, Andhra Pradesh, India</span>
+              </div>
+              <div class="edu-badges-row">
+                <div class="cgpa-pill">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                    </polygon>
+                  </svg>
+                  <span>CGPA: 9 / 10</span>
+                </div>
+                <div class="grad-pill">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                  <span>Expected Graduation: 2027</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="edu-degree">
+              B.Tech in Artificial Intelligence and Machine Learning
+            </div>
+
+            <div class="coursework-wrap">
+              <div class="coursework-title">Relevant Core Coursework</div>
+              <div class="coursework-chips">
+                <span class="course-chip">Data Structures</span>
+                <span class="course-chip">DBMS</span>
+                <span class="course-chip">Operating Systems</span>
+                <span class="course-chip">Computer Networks</span>
+                <span class="course-chip">Machine Learning</span>
+                <span class="course-chip">Deep Learning</span>
+                <span class="course-chip">Discrete Mathematics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================================
+         PROJECTS SECTION
+         ==================================================================== -->
+  <section class="section-wrapper" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+          <span>Selected Work</span>
+        </div>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">
+          Generative AI assistants, RAG pipelines, NLP, computer vision, and machine learning projects.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div>
+            <div class="project-card-header">
+              <span class="project-category-badge">AI ASSISTANT / LOCAL LLM</span>
+              <div class="project-links">
+                <!-- TODO: replace this link with the project's own GitHub repository -->
+                <a href="https://github.com/sumanth-9-9-9" target="_blank" rel="noopener noreferrer"
+                  class="project-icon-link" aria-label="Jarvis GitHub Repository">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project-title">Jarvis</h3>
+            <div class="project-subtitle">Offline AI Personal Assistant</div>
+            <p class="project-description">Offline AI personal assistant capable of understanding user commands and performing intelligent tasks.</p>
+
+            <ul class="project-features-list">
+              <li class="project-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Built on a local LLM-based architecture with Ollama and Llama 3.2.</span>
+              </li>
+              <li class="project-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Developed a Streamlit interface for interacting with the assistant.</span>
+              </li>
+              <li class="project-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Designed modular components for speech, reasoning, and system commands.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="project-tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">Streamlit</span>
+            <span class="tech-tag">Ollama</span>
+            <span class="tech-tag">Llama 3.2</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-card-header">
+              <span class="project-category-badge">RAG / LLM RETRIEVAL</span>
+              <div class="project-links">
+                <!-- TODO: replace this link with the project's own GitHub repository -->
+                <a href="https://github.com/sumanth-9-9-9" target="_blank" rel="noopener noreferrer"
+                  class="project-icon-link" aria-label="RAG Document Intelligence GitHub Repository">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project-title">RAG Document Intelligence</h3>
+            <div class="project-subtitle">Retrieval-Augmented Generation Assistant</div>
+            <p class="project-description">AI assistant that allows users to interact with documents using Retrieval-Augmented Generation.</p>
+
+            <ul class="project-features-list">
+              <li class="project-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Processes documents and converts information into embeddings.</span>
+              </li>
+              <li class="project-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Uses vector databases for semantic retrieval.</span>
+              </li>
+              <li class="project-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Generates context-aware answers using LLMs.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="project-tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">LangChain</span>
+            <span class="tech-tag">LLMs</span>
+            <span class="tech-tag">Embeddings</span>
+            <span class="tech-tag">FAISS / ChromaDB</span>
+            <span class="tech-tag">Streamlit</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-card-header">
+              <span class="project-category-badge">NLP / MACHINE LEARNING</span>
+              <div class="project-links">
+                <!-- TODO: replace this link with the project's own GitHub repository -->
+                <a href="https://github.com/sumanth-9-9-9" target="_blank" rel="noopener noreferrer"
+                  class="project-icon-link" aria-label="AI Resume Screening GitHub Repository">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project-title">AI Resume Screening</h3>
+            <div class="project-subtitle">Candidate Ranking with NLP</div>
+            <p class="project-description">AI-powered application for analyzing resumes and ranking candidates based on job requirements.</p>
+
+            <ul class="project-features-list">
+              <li class="project-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Performs resume text processing and NLP-based feature extraction.</span>
+              </li>
+              <li class="project-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Compares candidate profiles against job descriptions.</span>
+              </li>
+              <li class="project-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Provides automated candidate ranking through a Streamlit interface.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="project-tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">NLP</span>
+            <span class="tech-tag">Scikit-learn</span>
+            <span class="tech-tag">Pandas</span>
+            <span class="tech-tag">Streamlit</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-card-header">
+              <span class="project-category-badge">COMPUTER VISION / DEEP LEARNING</span>
+              <div class="project-links">
+                <!-- TODO: replace this link with the project's own GitHub repository -->
+                <a href="https://github.com/sumanth-9-9-9" target="_blank" rel="noopener noreferrer"
+                  class="project-icon-link" aria-label="Multi-Class Vehicle Detection GitHub Repository">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project-title">Multi-Class Vehicle Detection</h3>
+            <div class="project-subtitle">YOLO Computer Vision System</div>
+            <p class="project-description">Computer vision system for detecting and classifying multiple types of vehicles.</p>
+
+            <ul class="project-features-list">
+              <li class="project-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Implemented object detection using YOLO.</span>
+              </li>
+              <li class="project-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Processes images and video and identifies different vehicle classes.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="project-tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">YOLO</span>
+            <span class="tech-tag">Computer Vision</span>
+            <span class="tech-tag">Deep Learning</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div>
+            <div class="project-card-header">
+              <span class="project-category-badge">MACHINE LEARNING / NLP</span>
+              <div class="project-links">
+                <!-- TODO: replace this link with the project's own GitHub repository -->
+                <a href="https://github.com/sumanth-9-9-9" target="_blank" rel="noopener noreferrer"
+                  class="project-icon-link" aria-label="Email/SMS Spam Detection GitHub Repository">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+              </div>
+            </div>
+
+            <h3 class="project-title">Email/SMS Spam Detection</h3>
+            <div class="project-subtitle">Machine Learning + NLP Pipeline</div>
+            <p class="project-description">Machine learning system for classifying messages as spam or legitimate.</p>
+
+            <ul class="project-features-list">
+              <li class="project-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Used TF-IDF for text feature extraction.</span>
+              </li>
+              <li class="project-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Implemented Multinomial Naive Bayes for classification.</span>
+              </li>
+              <li class="project-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Achieved approximately 99.1% accuracy in the project evaluation.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="project-tech-tags">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">NLP</span>
+            <span class="tech-tag">TF-IDF</span>
+            <span class="tech-tag">Scikit-learn</span>
+            <span class="tech-tag">Multinomial Naive Bayes</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================================
+         SKILLS SECTION
+         ==================================================================== -->
+  <section class="section-wrapper" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+          <span>Technical Capabilities</span>
+        </div>
+        <h2 class="section-title">Skills & <span class="gradient-text">Technologies</span></h2>
+        <p class="section-subtitle">
+          An overview of my technical stack across Generative AI, machine learning, and full-stack Python development.
+        </p>
+      </div>
+
+      <div class="skills-category-grid">
+
+        <div class="skill-card">
+          <div class="skill-card-header">
+            <div class="skill-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="4 17 10 11 4 5"></polyline>
+                <line x1="12" y1="19" x2="20" y2="19"></line>
+              </svg>
+            </div>
+            <h3 class="skill-card-title">Programming</h3>
+          </div>
+          <div class="skill-tag-container">
+            <span class="skill-pill featured">Python</span>
+            <span class="skill-pill">Java</span>
+            <span class="skill-pill">JavaScript</span>
+            <span class="skill-pill">HTML</span>
+            <span class="skill-pill">CSS</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-header">
+            <div class="skill-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83">
+                </path>
+              </svg>
+            </div>
+            <h3 class="skill-card-title">Generative AI / LLM</h3>
+          </div>
+          <div class="skill-tag-container">
+            <span class="skill-pill featured">Large Language Models</span>
+            <span class="skill-pill featured">RAG</span>
+            <span class="skill-pill featured">Agentic AI</span>
+            <span class="skill-pill">Prompt Engineering</span>
+            <span class="skill-pill">Embeddings</span>
+            <span class="skill-pill">Gemini</span>
+            <span class="skill-pill">Groq</span>
+            <span class="skill-pill">GPT</span>
+            <span class="skill-pill">Ollama</span>
+            <span class="skill-pill">AI Agents</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-header">
+            <div class="skill-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 20V10"></path>
+                <path d="M12 20V4"></path>
+                <path d="M6 20v-6"></path>
+              </svg>
+            </div>
+            <h3 class="skill-card-title">AI / ML / DL</h3>
+          </div>
+          <div class="skill-tag-container">
+            <span class="skill-pill featured">Machine Learning</span>
+            <span class="skill-pill featured">Deep Learning</span>
+            <span class="skill-pill featured">Natural Language Processing</span>
+            <span class="skill-pill">Scikit-learn</span>
+            <span class="skill-pill">TensorFlow</span>
+            <span class="skill-pill">NLTK</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-header">
+            <div class="skill-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="3"></circle>
+                <path
+                  d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                </path>
+              </svg>
+            </div>
+            <h3 class="skill-card-title">Frameworks</h3>
+          </div>
+          <div class="skill-tag-container">
+            <span class="skill-pill featured">LangChain</span>
+            <span class="skill-pill featured">LangGraph</span>
+            <span class="skill-pill featured">LangSmith</span>
+            <span class="skill-pill">Streamlit</span>
+            <span class="skill-pill">Flask</span>
+            <span class="skill-pill">FastAPI</span>
+            <span class="skill-pill">React</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-header">
+            <div class="skill-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+              </svg>
+            </div>
+            <h3 class="skill-card-title">Databases / Vector DBs</h3>
+          </div>
+          <div class="skill-tag-container">
+            <span class="skill-pill featured">FAISS</span>
+            <span class="skill-pill featured">ChromaDB</span>
+            <span class="skill-pill">MySQL</span>
+            <span class="skill-pill">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-header">
+            <div class="skill-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+            </div>
+            <h3 class="skill-card-title">Data &amp; Visualization</h3>
+          </div>
+          <div class="skill-tag-container">
+            <span class="skill-pill featured">Pandas</span>
+            <span class="skill-pill">NumPy</span>
+            <span class="skill-pill">Matplotlib</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-header">
+            <div class="skill-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                <rect x="9" y="9" width="6" height="6"></rect>
+                <line x1="9" y1="1" x2="9" y2="4"></line>
+                <line x1="15" y1="1" x2="15" y2="4"></line>
+                <line x1="9" y1="20" x2="9" y2="23"></line>
+                <line x1="15" y1="20" x2="15" y2="23"></line>
+                <line x1="20" y1="9" x2="23" y2="9"></line>
+                <line x1="20" y1="14" x2="23" y2="14"></line>
+                <line x1="1" y1="9" x2="4" y2="9"></line>
+                <line x1="1" y1="14" x2="4" y2="14"></line>
+              </svg>
+            </div>
+            <h3 class="skill-card-title">Tools</h3>
+          </div>
+          <div class="skill-tag-container">
+            <span class="skill-pill featured">Git</span>
+            <span class="skill-pill">GitHub</span>
+            <span class="skill-pill">Jupyter Notebook</span>
+            <span class="skill-pill">Google Colab</span>
+            <span class="skill-pill">VS Code</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================================
+         CERTIFICATE SECTION & LIGHTBOX
+         ==================================================================== -->
+  <section class="section-wrapper" id="certificate">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="8" r="7"></circle>
+            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+          </svg>
+          <span>Credentials</span>
+        </div>
+        <h2 class="section-title">Certifications & <span class="gradient-text">Achievements</span></h2>
+        <p class="section-subtitle">
+          Industry certifications in Machine Learning and Deep Learning.
+        </p>
+      </div>
+
+      <div class="cert-grid">
+
+        <div class="cert-card">
+          <div class="cert-org-badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            <span>IBM</span>
+          </div>
+          <h3 class="cert-title-large">Machine Learning</h3>
+          <div class="cert-recipient">
+            Awarded to: <strong>ANGERI SUMANTH</strong>
+          </div>
+          <!-- TODO: add a credential link or certificate ID here when available -->
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-org-badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            <span>LTM Mindtree</span>
+          </div>
+          <h3 class="cert-title-large">Deep Learning</h3>
+          <div class="cert-recipient">
+            Awarded to: <strong>ANGERI SUMANTH</strong>
+          </div>
+          <!-- TODO: add a credential link or certificate ID here when available -->
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================================
+         CONTACT SECTION
+         ==================================================================== -->
+  <section class="section-wrapper" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+          </svg>
+          <span>Get in Touch</span>
+        </div>
+        <h2 class="section-title">Let's Build Something <span class="gradient-text">Intelligent</span></h2>
+        <p class="section-subtitle">
+          Interested in AI, Generative AI, machine learning, or full-stack development? Let's connect and build
+          something useful.
+        </p>
+      </div>
+
+      <div class="contact-container">
+        <!-- Contact Details Grid -->
+        <div class="contact-cards-grid">
+
+          <!-- Email Card -->
+          <div class="contact-detail-card">
+            <div class="contact-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </div>
+            <div class="contact-card-content">
+              <span class="contact-card-label">Email Address</span>
+              <a href="mailto:angerisumanth2005@gmail.com" class="contact-card-value">angerisumanth2005@gmail.com</a>
+            </div>
+            <button type="button" class="project-icon-link" style="margin-left: auto;"
+              onclick="copyToClipboard('angerisumanth2005@gmail.com', 'Email')" aria-label="Copy Email">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+            </button>
+          </div>
+
+          <!-- LinkedIn Card -->
+          <div class="contact-detail-card">
+            <div class="contact-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </div>
+            <div class="contact-card-content">
+              <span class="contact-card-label">LinkedIn</span>
+              <a href="https://linkedin.com/in/sumanth-angeri/" target="_blank" rel="noopener noreferrer"
+                class="contact-card-value">linkedin.com/in/sumanth-angeri</a>
+            </div>
+            <a href="https://linkedin.com/in/sumanth-angeri/" target="_blank" rel="noopener noreferrer"
+              class="project-icon-link" style="margin-left: auto;" aria-label="Open LinkedIn Profile">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- GitHub Card -->
+          <div class="contact-detail-card">
+            <div class="contact-card-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                </path>
+              </svg>
+            </div>
+            <div class="contact-card-content">
+              <span class="contact-card-label">GitHub</span>
+              <a href="https://github.com/sumanth-9-9-9" target="_blank" rel="noopener noreferrer"
+                class="contact-card-value">github.com/sumanth-9-9-9</a>
+            </div>
+            <a href="https://github.com/sumanth-9-9-9" target="_blank" rel="noopener noreferrer" class="project-icon-link"
+              style="margin-left: auto;" aria-label="Open GitHub Profile">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Direct Action Banner -->
+        <div class="contact-cta-banner">
+          <p class="cta-banner-text">Ready to collaborate on AI pipelines, intelligent agents, or full-stack products?
+          </p>
+          <a href="mailto:angerisumanth2005@gmail.com?subject=AI%20Engineering%20Opportunity" class="btn-primary">
+            <span>Send Direct Email</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================================
+         FOOTER
+         ==================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="footer-name">ANGERI SUMANTH</div>
+          <div class="footer-title">AI Engineer | Full Stack Python Developer</div>
+        </div>
+
+        <div class="footer-nav">
+          <a href="#home" class="footer-link">Home</a>
+          <a href="#about" class="footer-link">About</a>
+          <a href="#experience" class="footer-link">Experience</a>
+          <a href="#education" class="footer-link">Education</a>
+          <a href="#projects" class="footer-link">Projects</a>
+          <a href="#skills" class="footer-link">Skills</a>
+          <a href="#certificate" class="footer-link">Certificates</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </div>
+
+        <div class="hero-social-strip" style="margin-top: 0;">
+          <a href="https://github.com/sumanth-9-9-9" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+            aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+              </path>
+            </svg>
+          </a>
+          <a href="https://linkedin.com/in/sumanth-angeri/" target="_blank" rel="noopener noreferrer"
+            class="social-icon-btn" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+          <a href="mailto:angerisumanth2005@gmail.com" class="social-icon-btn" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Angeri Sumanth. All rights reserved.</div>
+        <div>Engineered with precision for intelligent and scalable impact.</div>
+      </div>
+    </div>
+  </footer>
+
+  </div>
+
+  <!-- Interactive Feedback Toast -->
+  <div class="toast-notice" id="toast-notice" role="status" aria-live="polite"></div>
+
+  <!-- Main Interaction Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
